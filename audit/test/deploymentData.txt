@@ -1,0 +1,2 @@
+tokenAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+testTokenFallbackAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d

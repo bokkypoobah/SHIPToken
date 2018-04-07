@@ -1,0 +1,318 @@
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        0.000000000000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433        0.000000000000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+
+---------- Deploy Token Contract ----------
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        0.002655184000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.002655184000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Token 'SHIP' 'ShipChain SHIP'
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Deploy Token Contract
+tokenTx status=0x1 Success gas=6000000 gasUsed=1327592 costETH=0.002655184 costUSD=2.4359985608 @ ETH/USD=917.45 gasPrice=2 gwei block=32 txIx=0 txId=0x7ba2de0b23437a04bbc42b0cf6a3be2d67cf01e3b58fe14d7131202e07b601fe @ 1523121842 Sat, 07 Apr 2018 17:24:02 UTC
+tokenContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=SHIP
+token.name=ShipChain SHIP
+token.decimals=18
+token.totalSupply=0
+token.INITIAL_SUPPLY=0 0
+token.maxSupply=5e+26 500000000
+token.mintingFinished=false
+token.paused=false
+Transfer 0 #32: from=0x0000000000000000000000000000000000000000 to=0xa11aae29840fbb5c86e6fd4cf809eba183aef433 value=0
+
+---------- Deploy TestTokenFallback Contract ----------
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        0.003530276000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.003530276000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Token 'SHIP' 'ShipChain SHIP'
+11 0x0e946b999033257976aa5cbe0e3530618ca1582d        0.000000000000000000           0.000000000000000000 TestTokenFallback
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Deploy TestTokenFallback Contract
+testTokenFallbackTx status=0x1 Success gas=6000000 gasUsed=437546 costETH=0.000875092 costUSD=0.8028531554 @ ETH/USD=917.45 gasPrice=2 gwei block=35 txIx=0 txId=0xfb1b7b3a76bc799ca6e73e81e536358513acc23b7dd7a9a765f3a5a50cdd6350 @ 1523121845 Sat, 07 Apr 2018 17:24:05 UTC
+testTokenFallbackContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
+testTokenFallback.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+testTokenFallback.requireFlag=true
+testTokenFallback.successFlag=true
+
+---------- Mint Tokens #1 ----------
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        0.003777164000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.003777164000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000      123456.789000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000      234567.890000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Token 'SHIP' 'ShipChain SHIP'
+11 0x0e946b999033257976aa5cbe0e3530618ca1582d        0.000000000000000000           0.000000000000000000 TestTokenFallback
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                               358024.679000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Mint Tokens #1 - ac3 + 123456.789 SHIP
+PASS Mint Tokens #1 - ac4 + 234567.890 SHIP
+mintTokens0_1Tx status=0x1 Success gas=1000000 gasUsed=69254 costETH=0.000138508 costUSD=0.1270741646 @ ETH/USD=917.45 gasPrice=2 gwei block=38 txIx=0 txId=0xd9eeb5c42d3a1532953a69a45e6e8a8e88857160df6c650d990593adb877335c @ 1523121848 Sat, 07 Apr 2018 17:24:08 UTC
+mintTokens0_2Tx status=0x1 Success gas=1000000 gasUsed=54190 costETH=0.00010838 costUSD=0.099433231 @ ETH/USD=917.45 gasPrice=2 gwei block=38 txIx=1 txId=0x687ea194f4593e6a8d709b9c4d6c4c4d95c8854bf12f0068e85f04d7777bb212 @ 1523121848 Sat, 07 Apr 2018 17:24:08 UTC
+tokenContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=SHIP
+token.name=ShipChain SHIP
+token.decimals=18
+token.totalSupply=358024.679
+token.INITIAL_SUPPLY=0 0
+token.maxSupply=5e+26 500000000
+token.mintingFinished=false
+token.paused=false
+Mint 0 #38 {"amount":"1.23456789e+23","to":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0"}
+Mint 1 #38 {"amount":"2.3456789e+23","to":"0xa44a08d3f6933c69212114bb66e2df1813651844"}
+Transfer 0 #38: from=0x0000000000000000000000000000000000000000 to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 value=123456.789
+Transfer 1 #38: from=0x0000000000000000000000000000000000000000 to=0xa44a08d3f6933c69212114bb66e2df1813651844 value=234567.89
+
+---------- Move Non-0 Tokens ----------
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        0.004064196000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.003777164000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000105492000000000      123456.788999000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.000091832000000000      234567.860000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000001000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9       -0.000089708000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.030000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Token 'SHIP' 'ShipChain SHIP'
+11 0x0e946b999033257976aa5cbe0e3530618ca1582d        0.000000000000000000           0.000000000000000000 TestTokenFallback
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                               358024.679000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+transfer1_1Tx status=0x1 Success gas=100000 gasUsed=52746 costETH=0.000105492 costUSD=0.0967836354 @ ETH/USD=917.45 gasPrice=2 gwei block=41 txIx=1 txId=0x8ba09f2e3b295cc21a1b28a2abc8b468060a26bf5dbf56a059b182d44d184efd @ 1523121851 Sat, 07 Apr 2018 17:24:11 UTC
+transfer1_2Tx status=0x1 Success gas=100000 gasUsed=45916 costETH=0.000091832 costUSD=0.0842512684 @ ETH/USD=917.45 gasPrice=2 gwei block=41 txIx=0 txId=0x49754d73b4419439351b63e21be72ce9d4ae81822373040146e39fa6a7f4264d @ 1523121851 Sat, 07 Apr 2018 17:24:11 UTC
+transfer1_3Tx status=0x1 Success gas=100000 gasUsed=44854 costETH=0.000089708 costUSD=0.0823026046 @ ETH/USD=917.45 gasPrice=2 gwei block=43 txIx=0 txId=0x87de33d9e24f75f871056d7e86d3cd3601bab60bd20a23057f34685bce5a7f8c @ 1523121853 Sat, 07 Apr 2018 17:24:13 UTC
+PASS Move Non-0 Tokens - transfer 0.000001 tokens ac3 -> ac5. CHECK for movement
+PASS Move Non-0 Tokens - approve 0.03 tokens ac4 -> ac6
+PASS Move Non-0 Tokens - transferFrom 0.03 tokens ac4 -> ac7 by ac6. CHECK for movement
+tokenContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=SHIP
+token.name=ShipChain SHIP
+token.decimals=18
+token.totalSupply=358024.679
+token.INITIAL_SUPPLY=0 0
+token.maxSupply=5e+26 500000000
+token.mintingFinished=false
+token.paused=false
+Approval 0 #41 owner=0xa44a08d3f6933c69212114bb66e2df1813651844 spender=0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9 value=0.03
+Transfer 0 #41: from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 to=0xa55a151eb00fded1634d27d1127b4be4627079ea value=0.000001
+Transfer 1 #43: from=0xa44a08d3f6933c69212114bb66e2df1813651844 to=0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec value=0.03
+
+---------- Move 0 Tokens ----------
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        0.004289436000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.003777164000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000180472000000000      123456.788999000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.000153024000000000      234567.860000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000001000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9       -0.000178776000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.030000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Token 'SHIP' 'ShipChain SHIP'
+11 0x0e946b999033257976aa5cbe0e3530618ca1582d        0.000000000000000000           0.000000000000000000 TestTokenFallback
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                               358024.679000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+transfer2_1Tx status=0x1 Success gas=100000 gasUsed=37490 costETH=0.00007498 costUSD=0.068790401 @ ETH/USD=917.45 gasPrice=2 gwei block=46 txIx=0 txId=0x6e1b6837dbe94c412eeed8acc4d5ea9820751fbe6c01db6623aa5242f62fea01 @ 1523121856 Sat, 07 Apr 2018 17:24:16 UTC
+transfer2_2Tx status=0x1 Success gas=100000 gasUsed=30596 costETH=0.000061192 costUSD=0.0561406004 @ ETH/USD=917.45 gasPrice=2 gwei block=46 txIx=1 txId=0xbbf3d0e295a88825ddcfb97b73591be611d19010d581d7a3fbeeb4b3da828a08 @ 1523121856 Sat, 07 Apr 2018 17:24:16 UTC
+transfer2_3Tx status=0x1 Success gas=100000 gasUsed=44534 costETH=0.000089068 costUSD=0.0817154366 @ ETH/USD=917.45 gasPrice=2 gwei block=48 txIx=0 txId=0x069799f5fc437e582dd5bf48cfaea4eefb34f64194ff25399d4b9394ccae6ea8 @ 1523121858 Sat, 07 Apr 2018 17:24:18 UTC
+PASS Move 0 Tokens - transfer 0 tokens ac3 -> ac5. CHECK for 0 movement
+PASS Move 0 Tokens - approve 0 tokens ac4 -> ac6
+PASS Move 0 Tokens - transferFrom 0 tokens ac4 -> ac7 by ac6. CHECK for 0 movement
+tokenContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=SHIP
+token.name=ShipChain SHIP
+token.decimals=18
+token.totalSupply=358024.679
+token.INITIAL_SUPPLY=0 0
+token.maxSupply=5e+26 500000000
+token.mintingFinished=false
+token.paused=false
+Approval 0 #46 owner=0xa44a08d3f6933c69212114bb66e2df1813651844 spender=0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9 value=0
+Transfer 0 #46: from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 to=0xa55a151eb00fded1634d27d1127b4be4627079ea value=0
+Transfer 1 #48: from=0xa44a08d3f6933c69212114bb66e2df1813651844 to=0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec value=0
+
+---------- Move Too Many Tokens ----------
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        0.004483082000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.003777164000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000230046000000000      123456.788999000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.000245240000000000      234567.860000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000001000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9       -0.000230632000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.030000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Token 'SHIP' 'ShipChain SHIP'
+11 0x0e946b999033257976aa5cbe0e3530618ca1582d        0.000000000000000000           0.000000000000000000 TestTokenFallback
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                               358024.679000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+transfer3_1Tx status=0x0 Failure gas=100000 gasUsed=24787 costETH=0.000049574 costUSD=0.0454816663 @ ETH/USD=917.45 gasPrice=2 gwei block=51 txIx=0 txId=0xeeb32eb2f56191499d382c7a096d9cda969f0df9cedd7b7a5640145622a5b650 @ 1523121861 Sat, 07 Apr 2018 17:24:21 UTC
+transfer3_2Tx status=0x1 Success gas=100000 gasUsed=46108 costETH=0.000092216 costUSD=0.0846035692 @ ETH/USD=917.45 gasPrice=2 gwei block=51 txIx=1 txId=0x69cb73b2b08152fefe4b18c7992b781c05cd090e625f7071a3d2402484c5f29c @ 1523121861 Sat, 07 Apr 2018 17:24:21 UTC
+transfer3_3Tx status=0x0 Failure gas=100000 gasUsed=25928 costETH=0.000051856 costUSD=0.0475752872 @ ETH/USD=917.45 gasPrice=2 gwei block=53 txIx=0 txId=0x3e3a9c8475723e48ea557066e1a09bd247b50a0c15ed8871ea142ddf19c0adcb @ 1523121863 Sat, 07 Apr 2018 17:24:23 UTC
+PASS Move Too Many Tokens - transfer 234567.890 tokens ac3 -> ac5. Expecting failure
+PASS Move Too Many Tokens - approve 234567.890 tokens ac4 -> ac6
+PASS Move Too Many Tokens - transferFrom 234567.890 tokens ac4 -> ac7 by ac6. Expecting failure
+tokenContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=SHIP
+token.name=ShipChain SHIP
+token.decimals=18
+token.totalSupply=358024.679
+token.INITIAL_SUPPLY=0 0
+token.maxSupply=5e+26 500000000
+token.mintingFinished=false
+token.paused=false
+Approval 0 #51 owner=0xa44a08d3f6933c69212114bb66e2df1813651844 spender=0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9 value=234567.89
+
+---------- Send Ethers To Token Contract ----------
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        0.004525174000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.003819256000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000230046000000000      123456.788999000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.000245240000000000      234567.860000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000001000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9       -0.000230632000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.030000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Token 'SHIP' 'ShipChain SHIP'
+11 0x0e946b999033257976aa5cbe0e3530618ca1582d        0.000000000000000000           0.000000000000000000 TestTokenFallback
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                               358024.679000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Send Ethers To Token Contract - owner 2.5 ETH. Expecting to fail
+sendEth0_1Tx status=0x0 Failure gas=400000 gasUsed=21046 costETH=0.000042092 costUSD=0.0386173054 @ ETH/USD=917.45 gasPrice=2 gwei block=56 txIx=0 txId=0xa59bb5c0fddfa01d15bb0752db0e4f7b0fb94f3870514bbadf22e41da27a2de3 @ 1523121866 Sat, 07 Apr 2018 17:24:26 UTC
+tokenContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=SHIP
+token.name=ShipChain SHIP
+token.decimals=18
+token.totalSupply=358024.679
+token.INITIAL_SUPPLY=0 0
+token.maxSupply=5e+26 500000000
+token.mintingFinished=false
+token.paused=false
+
+---------- approveAndCall ----------
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        0.005290754000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.004091104000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000723778000000000      123452.788999000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.000245240000000000      234567.860000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000001000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9       -0.000230632000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.030000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.000000000000000000 Token 'SHIP' 'ShipChain SHIP'
+11 0x0e946b999033257976aa5cbe0e3530618ca1582d        0.000000000000000000           4.000000000000000000 TestTokenFallback
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                               358024.679000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+approveAndCall1_1Tx status=0x1 Success gas=100000 gasUsed=78206 costETH=0.000156412 costUSD=0.1435001894 @ ETH/USD=917.45 gasPrice=2 gwei block=59 txIx=0 txId=0x21314efa2980b5e299dc97c931283a9ae3fbd2aedff580465031ac959620f594 @ 1523121869 Sat, 07 Apr 2018 17:24:29 UTC
+approveAndCall1_2Tx status=0x1 Success gas=100000 gasUsed=27206 costETH=0.000054412 costUSD=0.0499202894 @ ETH/USD=917.45 gasPrice=2 gwei block=61 txIx=0 txId=0xf363268789f88f22c5be71702302432906a3699e7438b6e29db047c8b0226b61 @ 1523121871 Sat, 07 Apr 2018 17:24:31 UTC
+approveAndCall1_3Tx status=0x0 Failure gas=100000 gasUsed=52663 costETH=0.000105326 costUSD=0.0966313387 @ ETH/USD=917.45 gasPrice=2 gwei block=63 txIx=0 txId=0x9e945a9ca12e0da0420f75a1e8605b7955dd1645b18d1037264f81eba9a3830a @ 1523121873 Sat, 07 Apr 2018 17:24:33 UTC
+approveAndCall1_4Tx status=0x1 Success gas=100000 gasUsed=27270 costETH=0.00005454 costUSD=0.050037723 @ ETH/USD=917.45 gasPrice=2 gwei block=65 txIx=0 txId=0x8cdce5e08cdf38c8e7bafbb1c85166c05be18238abe8286cace1a17e93b5f9c2 @ 1523121875 Sat, 07 Apr 2018 17:24:35 UTC
+approveAndCall1_5Tx status=0x1 Success gas=100000 gasUsed=27121 costETH=0.000054242 costUSD=0.0497643229 @ ETH/USD=917.45 gasPrice=2 gwei block=65 txIx=1 txId=0xcac0febc744626a5e418a63e5012116e4631119156352583b60bd1c71ccac8d7 @ 1523121875 Sat, 07 Apr 2018 17:24:35 UTC
+approveAndCall1_6Tx status=0x1 Success gas=100000 gasUsed=63270 costETH=0.00012654 costUSD=0.116094123 @ ETH/USD=917.45 gasPrice=2 gwei block=67 txIx=0 txId=0x854aa461aea7610f31aef98cb1aaf2bb294c937305250d57e65bf2b80be04d19 @ 1523121877 Sat, 07 Apr 2018 17:24:37 UTC
+approveAndCall1_7Tx status=0x1 Success gas=100000 gasUsed=27206 costETH=0.000054412 costUSD=0.0499202894 @ ETH/USD=917.45 gasPrice=2 gwei block=69 txIx=0 txId=0xe0f4972b18f238e21bccc1455e30bb0cbcbb901221c4cf3583645c06e0cae488 @ 1523121879 Sat, 07 Apr 2018 17:24:39 UTC
+approveAndCall1_8Tx status=0x1 Success gas=100000 gasUsed=27121 costETH=0.000054242 costUSD=0.0497643229 @ ETH/USD=917.45 gasPrice=2 gwei block=69 txIx=1 txId=0x9de3cd7e7b9b3167ce4f0ee2121eecc8738f6eb96dea6d9b17b7e1b77e7b45db @ 1523121879 Sat, 07 Apr 2018 17:24:39 UTC
+approveAndCall1_9Tx status=0x0 Failure gas=100000 gasUsed=52727 costETH=0.000105454 costUSD=0.0967487723 @ ETH/USD=917.45 gasPrice=2 gwei block=71 txIx=0 txId=0xa8665987d95b2e9f4333ae8373709aa9e2c48c9495270afcc116891ab716e465 @ 1523121881 Sat, 07 Apr 2018 17:24:41 UTC
+PASS approveAndCall - approveAndCall(testTokenFallback, 1 token, 'requireFlag=true,successFlag=true')
+PASS approveAndCall - setRequireFlag(false)
+PASS approveAndCall - approveAndCall(testTokenFallback, 2 token, 'requireFlag=false,successFlag=true')
+PASS approveAndCall - setRequireFlag(true)
+PASS approveAndCall - setSuccessFlag(false)
+PASS approveAndCall - approveAndCall(testTokenFallback, 3 token, 'requireFlag=true,successFlag=false')
+PASS approveAndCall - setRequireFlag(false)
+PASS approveAndCall - setSuccessFlag(false)
+PASS approveAndCall - approveAndCall(testTokenFallback, 4 token, 'requireFlag=false,successFlag=false')
+tokenContractAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=SHIP
+token.name=ShipChain SHIP
+token.decimals=18
+token.totalSupply=358024.679
+token.INITIAL_SUPPLY=0 0
+token.maxSupply=5e+26 500000000
+token.mintingFinished=false
+token.paused=false
+Approval 0 #59 owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 spender=0x0e946b999033257976aa5cbe0e3530618ca1582d value=1
+Approval 1 #67 owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 spender=0x0e946b999033257976aa5cbe0e3530618ca1582d value=3
+Transfer 0 #59: from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 to=0x0e946b999033257976aa5cbe0e3530618ca1582d value=1
+Transfer 1 #67: from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 to=0x0e946b999033257976aa5cbe0e3530618ca1582d value=3
+testTokenFallbackContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
+testTokenFallback.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+testTokenFallback.requireFlag=false
+testTokenFallback.successFlag=false
+LogReceiveApproval 0 #59 msgSender=0x90d8927407c79c4a28ee879b821c76fc9bcc2688 amount=1 token=0x90d8927407c79c4a28ee879b821c76fc9bcc2688 data='requireFlag=true,successFlag=true'
+LogReceiveApproval 1 #67 msgSender=0x90d8927407c79c4a28ee879b821c76fc9bcc2688 amount=3 token=0x90d8927407c79c4a28ee879b821c76fc9bcc2688 data='requireFlag=true,successFlag=false'
+
