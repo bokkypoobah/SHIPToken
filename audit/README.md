@@ -14,6 +14,8 @@ This original audit was completed on Feb 24 2018 based on source code in ShipCha
 This audit has now been re-tested and re-checked in ShipChain's public repository in commit
 [f8498b6](https://github.com/ShipChain/SHIPToken/commit/f8498b6747bfe4f82957257f90e8c3ff7b9314e2).
 
+The ShipChain SHIP token contract has been deployed to [0xe25b0bba01dc5630312b6a21927e578061a13f55](https://etherscan.io/address/0xe25b0bba01dc5630312b6a21927e578061a13f55#code) - a copy of the contract code is available at [deployed-contract/ShipChainTokenContract_0xe25b0BBA01Dc5630312B6A21927E578061A13f55.sol](deployed-contract/ShipChainTokenContract_0xe25b0BBA01Dc5630312B6A21927E578061A13f55.sol). The deployed contract source matches the component contract source in the [contracts](../contracts) folder for commit [f8498b6](https://github.com/ShipChain/SHIPToken/commit/f8498b6747bfe4f82957257f90e8c3ff7b9314e2).
+
 No potential vulnerabilities have been identified in the token contract.
 
 Note that SHIPToken is a pausable token contract. The token contract owner can pause and un-pause transfers at any
